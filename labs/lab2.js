@@ -3,11 +3,11 @@ const readline = require('readline-sync');
 let yourWeight = readline.question('Your weight: ');
 let yourHeight = readline.question('Your height: ');
 let yourBMI = yourWeight / (yourHeight*2);
-if(yourBMI <= 18.5) {
+if(yourBMI < 18.5) {
     console.log('Underweight');
-} else if (yourBMI > 18.5 && yourBMI <=24.9) {
+} else if (yourBMI <=24.9) {
     console.log('Normal weight');
-} else if(yourBMI >= 25 && yourBMI <=29.9) {
+} else if(yourBMI <=29.9) {
     console.log('Over weight ');
 } else {
     console.log('Obesity');
