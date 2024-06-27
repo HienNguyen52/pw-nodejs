@@ -1,9 +1,0 @@
-// Declare
-let myName = 'Hanah'
-
-// Re-assign(ok) | Re-decalre (Not OK)
-myName = "Bin" (OK)
-let myName = "Bin" (Not OK)
-
-// Constant
-const piNumber = '3.14'
