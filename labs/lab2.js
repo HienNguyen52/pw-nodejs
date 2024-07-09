@@ -14,7 +14,7 @@ if(yourBMI < 18.5) {
 };
 
 // Lab 2.2
-/*const readline = require('readline-sync');
+const readline = require('readline-sync');
 let inputNumber = readline.question('Number: ')
 let result = inputNumber % 2
 if(result==0) {
@@ -22,4 +22,4 @@ if(result==0) {
 } else {
     console.log("It's an odd number");
 };
-*/
+
